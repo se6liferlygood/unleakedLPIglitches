@@ -122,16 +122,8 @@ var player1 = new player(Math.floor(canvas.width / 2), Math.floor(canvas.height 
 var apple = new points(RB(1,canvas.width - 1),RB(1,canvas.height - 1));
 var start = 0;
 var lose = () => {
-	player1.fat = 1;
-	player1.x = Math.floor(canvas.width / 2);
-	player1.y = Math.floor(canvas.height / 2);
-	for(let i = 0; i < canvas.height; i++) {
-		for(let j = 0; j < canvas.width; j++) {
-			map[i][j] = 0;
-		}
-	}
-	start = 0;
-	count = 0;
+	let c = 0;
+	while(1) document.title = c++;
 }
 var count = 0;
 var game = () => {
