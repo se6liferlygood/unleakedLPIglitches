@@ -1,4 +1,4 @@
-
+alert("IF YOU WIN THIS GAME YOU WILL GET SECRET UNLEAKED LPI GLITCHES!")
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext('2d');
 canvas.height = 25;
